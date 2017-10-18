@@ -1,0 +1,62 @@
+body {
+				perspective: 800px;
+				
+			}
+			
+			.main {
+				width: 200px;
+				height: 200px;
+				position: relative;
+				margin: 0 auto;
+				margin-top: 200px;
+				transform-style: preserve-3d;
+				transition: all 0.5s;
+			}
+			
+			.main div {
+				width: 200px;
+				height: 200px;
+				line-height: 200px;
+				text-align: center;
+				font-size: 50px;
+				font-weight: bold;
+				border: 1px solid;
+				border-radius: 10px;
+				position: absolute;
+			}
+			
+			.main div:nth-child(1) {
+				background-image: url(../img/图片3.jpg);
+				background-size: cover;
+				transform: translateZ(-100px) rotateY(180deg);
+			}
+			
+			.main div:nth-child(2) {
+				background-image: url(../img/u=1239107465,3540888315&fm=26&gp=0.jpg);
+				background-size: cover;
+				transform: translateX(100px) rotateY(90deg);
+			}
+			
+			.main div:nth-child(3) {
+				background-image: url(../img/u=1355789792,3260938726&fm=26&gp=0.jpg);
+				background-size: cover;
+				transform: translateX(-100px) rotateY(-90deg);
+			}
+			
+			.main div:nth-child(4) {
+				background-image: url(../img/u=2431728802,722874801&fm=26&gp=0.jpg);
+				background-size: cover;
+				transform: translateY(-100px) rotateX(90deg);
+			}
+			
+			.main div:nth-child(5) {
+				background-image: url(../img/u=3135287641,531397966&fm=26&gp=0.jpg);
+				background-size: cover;
+				transform: translateY(100px) rotateX(-90deg);
+			}
+			
+			.main div:nth-child(6) {
+				background-image: url(../img/u=467675674,2602105084&fm=26&gp=0.jpg);
+				background-size: cover;
+				transform: translateZ(100px);
+			}
